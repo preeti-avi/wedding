@@ -31,6 +31,7 @@ section .layer1 {
 	transform: translate(-50%, -50%);
 	z-index: 1;
 	opacity: 0;
+	cursor: pointer;
 }
 
 .layer1:hover ~ .layer2 {
@@ -53,6 +54,7 @@ section .layer3 {
 	transform: translate(-50%, -50%);
 	z-index: 1;
 	opacity: 0;
+	cursor: pointer;
 }
 
 .layer3:hover ~ .layer2 {
@@ -80,6 +82,7 @@ section .layer4 {
 	transform: translate(-50%, -50%);
 	z-index: 1;
 	opacity: 0;
+	cursor: pointer;
 }
 
 .layer4:hover ~ .layer2 {
