@@ -38,7 +38,7 @@ section .layer1 {
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	transition: 2s;
+	transition: 1s;
 }
 
 section .layer3 {
@@ -58,7 +58,7 @@ section .layer3 {
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	transition: 2s;
+	transition: 1s;
 }
 
 section .layer4 {
@@ -78,7 +78,7 @@ section .layer4 {
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	transition: 2s;
+	transition: 1s;
 }
 
 
