@@ -39,6 +39,7 @@ section .layer1 {
 	background-position: center;
 	background-attachment: fixed;
 	transition: 1s;
+	cursor: pointer;
 }
 
 section .layer3 {
@@ -60,6 +61,7 @@ section .layer3 {
 	background-position: center;
 	background-attachment: fixed;
 	transition: 1s;
+	cursor: pointer;
 }
 
 section .layer4 {
@@ -86,6 +88,7 @@ section .layer4 {
 	background-position: center;
 	background-attachment: fixed;
 	transition: 1s;
+	cursor: pointer;
 }
 
 
