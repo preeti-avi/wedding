@@ -81,7 +81,7 @@ section .layer4 {
 	background: #000000;
 	transform: translate(-50%, -50%);
 	z-index: 1;
-	opacity: 0;
+	opacity: 0.0;
 	cursor: pointer;
 }
 
@@ -94,17 +94,216 @@ section .layer4 {
 	cursor: pointer;
 }
 
-@media (max-width:480px) {
+/*-------------------------------------------------------------------------------------------------------------*/
+/*780px device*/
+@media (max-width:768px) {
+	section .layer2 {
+	position: absolute;
+	top: 5%;
+	left: 0%;
+	width:100%;
+	height: 90%;
+	background: url("images/Web_wed_desktop_1920.jpg");
+	background-size: 150%;
+	background-repeat: no-repeat;
+	background-position-x: 25%;
+	/*background-attachment: fixed;*/
+	transition: 2s;
+}
 	section .layer1 {
 	position: absolute;
-	top: 50%;
-	left: 86%;
-	width: 28%;
-	height: 15%;
+	top: 42%;
+	left: 87%;
+	width: 18%;
+	height: 11%;
 	background: #000000; 
 	transform: translate(-50%, -50%);
 	z-index: 1;
 	opacity: 0;
+	cursor: pointer;
+}
+	.layer1:hover ~ .layer2 {
+	position: absolute;
+	top: 5%;
+	left: 0%;
+	width:100%;
+	height: 90%;
+	background: url("images/Web_wed_desktop_1920_lb2.jpg");
+	background-size:150%;
+	background-repeat: no-repeat;
+	background-position-x: 25%;
+	/*background-attachment: fixed;*/
+	transition: 1s;
+	cursor: pointer;
+}
+
+section .layer3 {
+	position: absolute;
+	top: 33%;
+	left: 59.5%;
+	clip-path: polygon(50% 0%, 77% 0, 100% 100%, 0% 100%);
+	width: 23%;
+	height: 21.5%;
+	background: #000000; 
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.layer3:hover ~ .layer2 {
+	position: absolute;
+	top: 5%;
+	left: 0%;
+	width:100%;
+	height: 90%;
+	background: url("images/Web_wed_desktop_1920_p2.jpg");
+	background-size:150%;
+	background-repeat: no-repeat;
+	background-position-x: 25%;
+	/*background-attachment: fixed;*/
+	transition: 1s;
+	cursor: pointer;
+}
+
+section .layer4 {
+	position: absolute;
+	top: 63.4%;
+	left: 50%;
+	/*width: 55%;
+	height: 39%;*/
+	/*border-bottom: 20vh solid #333;
+    border-left: 20vw solid transparent;
+    border-right: 20vw solid transparent;*/
+	clip-path: polygon(0% 0%, 74% 0, 100% 100%, 0% 100%);
+    height: 31%;
+    width: 100%;
+	background: #555000;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.layer4:hover ~ .layer2 {
+	position: absolute;
+	top: 5%;
+	left: 0%;
+	width:100%;
+	height: 90%;
+	background: url("images/Web_wed_desktop_1920_a2.jpg");
+	background-size:150%;
+	background-repeat: no-repeat;
+	background-position-x: 25%;
+	/*background-attachment: fixed;*/
+	transition: 1s;
+	cursor: pointer;
+}
+}
+
+/*---------------------------------------------------------------------------------------*/
+/*480px devices*/
+@media (max-width:480px) {
+	section .layer2 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width:100%;
+	height: 100%;
+	background: url("images/Web_wed_desktop_1920.jpg");
+	background-size:161%;
+	background-repeat: no-repeat;
+	background-position-x: 33%;
+	/*background-attachment: fixed;*/
+	transition: 2s;
+}
+	section .layer1 {
+	position: absolute;
+	top: 25%;
+	left: 87%;
+	width: 20%;
+	height: 8%;
+	background: #000000; 
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	opacity: 0;
+	cursor: pointer;
+}
+	.layer1:hover ~ .layer2 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width:100%;
+	height: 100%;
+	background: url("images/Web_wed_desktop_1920_lb2.jpg");
+	background-size:161%;
+	background-repeat: no-repeat;
+	background-position-x: 33%;
+	/*background-attachment: fixed;*/
+	transition: 1s;
+	cursor: pointer;
+}
+
+section .layer3 {
+	position: absolute;
+	top: 18.7%;
+	left: 57%;
+	clip-path: polygon(50% 0%, 77% 0, 100% 100%, 0% 100%);
+	width: 25%;
+	height: 14%;
+	background: #000000; 
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.layer3:hover ~ .layer2 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width:100%;
+	height: 100%;
+	background: url("images/Web_wed_desktop_1920_p2.jpg");
+	background-size:161%;
+	background-repeat: no-repeat;
+	background-position-x: 33%;
+	/*background-attachment: fixed;*/
+	transition: 1s;
+	cursor: pointer;
+}
+
+section .layer4 {
+	position: absolute;
+	top: 39.8%;
+	left: 50%;
+	/*width: 55%;
+	height: 39%;*/
+	/*border-bottom: 20vh solid #333;
+    border-left: 20vw solid transparent;
+    border-right: 20vw solid transparent;*/
+	clip-path: polygon(0% 0%, 72% 0, 100% 100%, 0% 100%);
+    height: 21.2%;
+    width: 100%;
+	background: #555000;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.layer4:hover ~ .layer2 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width:100%;
+	height: 100%;
+	background: url("images/Web_wed_desktop_1920_a2.jpg");
+	background-size:161%;
+	background-repeat: no-repeat;
+	background-position-x: 33%;
+	/*background-attachment: fixed;*/
+	transition: 1s;
 	cursor: pointer;
 }
 }
